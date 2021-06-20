@@ -5,30 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <section>
-      <h2>Карта Байкала</h2>
-      <div></div>
+    <section class="section-map-baical">
+      <div class="container-map-baical">
+        <h2 class="map-baical-title">Карта Байкала</h2>
+        <div>
+          <img
+            class="images"
+            src="./images/map-baical.jpg"
+            alt="Карта, где находиться Байкал"
+            width="1120"
+          />
+        </div>
+      </div>
     </section>
     <section>
-      <h2>О Байкале</h2>
-      <p>
-        Озеро Байкал – глубочайшее и древнейшее озеро планеты. Древние жители
-        Прибайкалья называли его Священным морем и считали, что в Байкале нет
-        дна, обожествляли и наделяли его мистическими свойствами. Именно здесь
-        пронзительные чувства и скрытые способности человека находят выплеск.
-        Познается что-то новое не только в природе, но и в самом себе. Многие
-        посетившие Байкал люди утверждают, что озеро оказало большое влияние на
-        их дальнейшую жизнь.
-      </p>
-      <a href="#">Читать подробней</a>
-      <video
-        src="./video/baical.mp4"
-        poster="./images/ozero-baykal.jpg"
-        width="640"
-        controls
-      ></video>
+      <div class="container-o-baical">
+        <div class="o-baical-content-wrap">
+          <h2 class="o-baical-title">О Байкале</h2>
+          <p class="o-baical-text">
+            Озеро Байкал – глубочайшее и древнейшее озеро планеты. Древние
+            жители Прибайкалья называли его Священным морем и считали, что в
+            Байкале нет дна, обожествляли и наделяли его мистическими
+            свойствами. Именно здесь пронзительные чувства и скрытые способности
+            человека находят выплеск. Познается что-то новое не только в
+            природе, но и в самом себе. Многие посетившие Байкал люди
+            утверждают, что озеро оказало большое влияние на их дальнейшую
+            жизнь.
+          </p>
+          <button class="o-baical-btn" type="button">Читать подробней</button>
+        </div>
+        <video
+          src="./video/baical.mp4"
+          poster="./images/ozero-baykal.jpg"
+          width="640"
+          controls
+        ></video>
+      </div>
     </section>
   </body>
 </html>

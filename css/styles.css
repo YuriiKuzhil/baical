@@ -1,0 +1,55 @@
+.container-map-baical,
+.container-o-baical {
+  width: 1152px;
+  padding-right: 16px;
+  padding-left: 16px;
+  margin: auto;
+}
+.container-map-baical {
+  margin-bottom: 76px;
+}
+.map-baical-title,
+.o-baical-title {
+  margin-top: 0;
+  margin-bottom: 31px;
+  text-align: center;
+  font-family: 'PT Serif', serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.33;
+  color: #000000;
+}
+
+.images {
+  display: block;
+}
+.o-baical-text {
+  margin-top: 0;
+  margin-bottom: 55px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.4;
+  color: #333333;
+}
+.container-o-baical {
+  display: flex;
+  margin-bottom: 86px;
+}
+.o-baical-content-wrap {
+  margin-right: 32px;
+}
+.o-baical-title {
+  margin-bottom: 21px;
+}
+.o-baical-btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-decoration-line: underline;
+  color: #76767a;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+}
